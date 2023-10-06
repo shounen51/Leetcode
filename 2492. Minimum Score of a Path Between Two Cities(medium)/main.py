@@ -2,7 +2,6 @@ class Solution:
     def minScore(self, n: int, roads: list) -> int:
         RECHECK = True
         connected_city = {1, n}
-        recheck_roads = []
         min_path = 10000 # accroding to 1 <= distancei <= 10^4
         while RECHECK:
             recheck_roads = []
